@@ -1,0 +1,3 @@
+browser=chrome
+testurl=https://www.rahulshettyacademy.com/AutomationPractice/
+huburl=http://localhost:4444/wd/hub  

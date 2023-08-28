@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+ 
+<listener class-name="com.qa.extentlisteners.ExtentListeners"></listener>
+
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.TestScripts.WebTableTest"/>
+      <class name="com.qa.TestScripts.DynamicCheckboxTest"/>
+      <class name="com.qa.TestScripts.SimpleCheckboxTest"/>
+      <class name="com.qa.TestScripts.WindowHandleTest"/>
+      <class name="com.qa.TestScripts.MouseHoverTest"/>
+      <class name="com.qa.TestScripts.DropdownTest"/>
+      <class name="com.qa.TestScripts.AlertPageTest"/>
+      <class name="com.qa.TestScripts.DynamicRadioButtonTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.TestScripts.DynamicCheckboxTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="frameworkSetUp"/>
+          <include name="HandleDynamicCheckboxesTest"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.DynamicCheckboxTest -->
+      <class name="com.qa.TestScripts.DropdownTest">
+        <methods>
+          <include name="frameworkSetUp"/>
+          <include name="teardown"/>
+          <include name="testDropdownSelection"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.DropdownTest -->
+      <class name="com.qa.TestScripts.MouseHoverTest">
+        <methods>
+          <include name="frameworkSetUp"/>
+          <include name="teardown"/>
+          <include name="MouseHoverAction"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.MouseHoverTest -->
+      <class name="com.qa.TestScripts.SimpleCheckboxTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="frameworkSetUp"/>
+          <include name="testCheckbox"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.SimpleCheckboxTest -->
+      <class name="com.qa.TestScripts.WindowHandleTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="frameworkSetUp"/>
+          <include name="HandleWindows"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.WindowHandleTest -->
+      <class name="com.qa.TestScripts.WebTableTest">
+        <methods>
+          <include name="testCellValue"/>
+          <include name="teardown"/>
+          <include name="frameworkSetUp"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.WebTableTest -->
+      <class name="com.qa.TestScripts.AlertPageTest">
+        <methods>
+          <include name="HandleAlert"/>
+          <include name="teardown"/>
+          <include name="frameworkSetUp"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.AlertPageTest -->
+      <class name="com.qa.TestScripts.DynamicRadioButtonTest">
+        <methods>
+          <include name="frameworkSetUp"/>
+          <include name="teardown"/>
+          <include name="HandleDynamicRadioButtonTest"/>
+        </methods>
+      </class> <!-- com.qa.TestScripts.DynamicRadioButtonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
